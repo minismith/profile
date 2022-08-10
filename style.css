@@ -1,0 +1,123 @@
+body {
+  font-family: 'Figtree', sans-serif;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 1.1em;
+  background-image: url("images/paper2.jpg");
+}
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1em;
+}
+
+a {
+  color: #FF005C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #43D8C9;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #FF005C;
+  font-size: 0.85em;
+}
+
+.heading {
+  font-family: 'Rubik Iso', cursive;
+  font-size: 2.8em;
+  /* letter-spacing: 0.6em; */
+  color: #FF005C;
+}
+
+.profile-img {
+  height: 350px;
+  width: 285px;
+  border-radius: 51% 49% 42% 58% / 64% 29% 71% 36%;
+  filter: grayscale(100%);
+}
+
+.card {
+  width: 80%;
+  margin: 40px auto;
+  padding: 5px 20px 20px;
+  box-shadow: 10px 10px 10px #888888a1;
+  background-color: rgba(255, 255, 255, 0.966);
+}
+
+.social-icon {
+  font-size: 37px;
+  letter-spacing: 0.4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.toggle-box {
+  margin-bottom: 30px;
+}
+
+.toggle-box .toggle-second{
+  display: none;
+}
+
+.toggle-box:hover .toggle-first{
+  display: none;
+}
+
+.toggle-box:hover .toggle-second {
+  display: inline;
+}
+
+.container {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  .card {
+    width: 70%;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .profile-img {
+    height: 250px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .card {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .profile-img {
+    height: 250px;
+    width: 200px;
+  }
+}
